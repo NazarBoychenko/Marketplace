@@ -5,7 +5,8 @@ function App() {
    const [count, setCount] = useState(0);
    return (
       <>
-         <h1>Marketplace</h1>
+         <h1 className={styles.text}> Marketplace </h1>
+         <h2>Hi</h2>
          <div className={styles.card}>
             <button onClick={() => setCount((count) => count + 1)}>
                count is {count}
