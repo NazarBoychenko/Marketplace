@@ -1,8 +1,13 @@
-# React + Vite
+# Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This marketplace was developed with the use of:
+1. HTML5
+2. CSS3
+3. JavaScript
+4. React.js
+5. Vite
+6. Vitest
+7. Graphql
+8. Redux Toolkit
+9. React Router
+10. Git
