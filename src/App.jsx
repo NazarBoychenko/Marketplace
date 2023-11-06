@@ -1,21 +1,17 @@
-import { useState } from 'react'
 import styles from './App.module.css'
 
+import Header from './pages/header/header.jsx';
+import Main from './pages/main/main.jsx';
+import Footer from './pages/footer/footer.jsx';
+
 function App() {
-   const [count, setCount] = useState(0);
+
    return (
-      <>
-         <h1 className={styles.text}> Marketplace </h1>
-         <h2>Hi</h2>
-         <div className={styles.card}>
-            <button onClick={() => setCount((count) => count + 1)}>
-               count is {count}
-            </button>
-            <p>
-               Edit <code>src/App.jsx</code> and save to test HMR
-            </p>
-         </div>
-      </>
+      <div className={styles.app}>
+         <Header></Header>
+         <Main></Main>
+         <Footer></Footer>
+      </div>
    )
 }
 
