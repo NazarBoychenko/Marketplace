@@ -1,17 +1,17 @@
 import styles from './App.module.css'
 
-import Header from './pages/header/header.jsx';
-import Main from './pages/main/main.jsx';
-import Footer from './pages/footer/footer.jsx';
+import Header from './components/Header/Header.jsx';
+import Main from './components/Main/Main.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
 
    return (
-      <div className={styles.app}>
-         <Header></Header>
-         <Main></Main>
+      <>
+         {/* <Header></Header>
+         <Main></Main> */}
          <Footer></Footer>
-      </div>
+      </>
    )
 }
 
