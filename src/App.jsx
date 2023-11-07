@@ -1,20 +1,18 @@
 import { Routes, Route } from 'react-router-dom';
 
-import MainLayout from './components/MainLayout/MainLayout.jsx';
-import Home from './pages/Home/Home.jsx';
-import Login from './pages/Login/Login.jsx';
-import Register from './pages/Register/Register.jsx';
+import Header from './components/Header/Header.jsx';
+import Main from './components/Main/Main.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="" element={<MainLayout />}>
-        <Route path="/" element={<Home />} />
-      </Route>
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Register />} />
-    </Routes>
-  );
+      <>
+         {/* <Header></Header>
+         <Main></Main> */}
+         <Footer></Footer>
+      </>
+   )
 };
 
 export default App;
+
