@@ -1,18 +1,20 @@
-import styles from './App.module.css'
+import { Routes, Route } from 'react-router-dom';
 
-import Header from './pages/header/header.jsx';
-import Main from './pages/main/main.jsx';
-import Footer from './pages/footer/footer.jsx';
+import MainLayout from './components/MainLayout/MainLayout.jsx';
+import Home from './pages/Home/Home.jsx';
+import Login from './pages/Login/Login.jsx';
+import Register from './pages/Register/Register.jsx';
 
-function App() {
+const App = () => {
+  return (
+    <Routes>
+      <Route path="" element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+      </Route>
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+    </Routes>
+  );
+};
 
-   return (
-      <div className={styles.app}>
-         <Header></Header>
-         <Main></Main>
-         <Footer></Footer>
-      </div>
-   )
-}
-
-export default App
+export default App;
