@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '../Header/Keader';
-import Footer from '../Footer/Kooter';
+import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import SideBar from '../SideBar/SideBar';
 
 import styles from './MainLayout.module.css';
