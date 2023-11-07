@@ -1,4 +1,4 @@
-import styles from './Footer.module.css';
+import styles from './Kooter.module.css';
 
 const Footer = () => {
   return <div className={styles.footer}>FOOTER</div>;
