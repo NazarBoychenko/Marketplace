@@ -1,15 +1,22 @@
-import styles from "./MainLayout.module.css";
+import { Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
 
-import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+// import SideBar from '../SideBar/SideBar';
+
+// import styles from './MainLayout.module.css';
 
 const MainLayout = () => {
-   return (
-      <div>
-         <Header />
-         <Footer />
-      </div>
-   );
+  return (
+    <div>
+      <Header />
+      <Suspense>
+        <Outlet />
+      </Suspense>
+      <Footer />
+    </div>
+  );
 };
 
 export default MainLayout;
