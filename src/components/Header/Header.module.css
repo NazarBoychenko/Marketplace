@@ -39,10 +39,15 @@
   display: flex;
   flex-direction: row;
   justify-content: end;
+  align-items: center;
 }
 
 .header__inputLabel {
   position: relative;
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+
   width: 522px;
   height: 36px;
 }
@@ -53,6 +58,7 @@
   height: 100%;
   align-items: center;
   justify-content: center;
+  align-items: center;
 
   border-radius: 10px;
   font-size: 20px;
@@ -61,29 +67,29 @@
 
 .header__inputBtn {
   position: absolute;
-  top: 8px;
+  top: 6px;
   right: 14px;
 
   border: none;
   background-color: transparent;
 }
 
-/* .header__languageMenu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 36px;
-} */
-
 .header__languageSelect {
   box-sizing: border-box;
-  min-width: 90px;
-  max-height: 36px;
+  width: 100px;
+  height: 45px;
   padding: 8px 7px;
+  margin-left: 7px;
+
   border: none;
   border-radius: 10px;
+
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
 }
 
-.header__languageSelect option:checked {
-  width: 100%;
+.header__basket {
+  margin-left: 10px;
 }

@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import Logo from '../../icon/logo.svg';
+import Basket from '../../icon/basket.svg';
+import Account from '../../icon/account.svg';
 
 import Search from '../../icon/search.svg';
 
@@ -32,10 +34,19 @@ const Header = () => {
 
           <div className={styles.header__languageMenu}>
             <select className={styles.header__languageSelect}>
-              <option value="ukr">UA</option>
+              <option className={styles.header__option} value="ukr">
+                UA
+              </option>
               <option value="eng">US</option>
             </select>
           </div>
+
+          <NavLink className={styles.header__basket}>
+            <img src={Basket} />
+          </NavLink>
+          <NavLink className={styles.header__account}>
+            <img src={Account} />
+          </NavLink>
         </div>
       </div>
     </div>
