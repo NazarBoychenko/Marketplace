@@ -22,7 +22,7 @@ function Footer() {
             <div className={styles.call_center}>
                <img src={phone} alt="phone" />
                <div className={styles.number}>
-                  <span>Call-центер</span><br />
+                  <span>Call-центр</span><br />
                   <span>0-800-80-80-80</span>
                </div>
                <div className={styles.days_work}>
