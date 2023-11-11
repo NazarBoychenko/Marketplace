@@ -12,7 +12,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.header__wraper}>
         <div className={styles.logo}>
-          <NavLink to="/" className={styles.logo__link}>
+          <NavLink exact to="/" className={styles.logo__link}>
             <img src={Logo} />
             <span className={styles.logo__text}>TechHaven</span>
           </NavLink>
