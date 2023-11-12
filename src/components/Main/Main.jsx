@@ -5,7 +5,6 @@ import Slider from '../../ui_reuse/Slider';
 import ProductCard from "../ProductCard/ProductCard";
 
 const Main = () => {
-
    return (
       <div className={styles.main}>
          <div className={`${styles.container} width_limiter`}>

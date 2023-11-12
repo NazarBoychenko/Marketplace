@@ -1,9 +1,46 @@
 .sideBar {
-  position: fixed;
-  top: 0;
-  left: 0;
+  margin-left: 50px;
+  min-width: 400px;
+  height: 630px;
 
-  width: 200px;
-  height: 100%;
-  background-color: rgb(149, 42, 165);
+  background-color: var(--color-bg-sideBar);
+  border-radius: 0 0 20px 20px;
+}
+
+.sideBar__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 13px;
+}
+
+.sideBar__item {
+  justify-content: start;
+}
+
+.sideBar__item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.sideBar__link {
+  display: flex;
+  align-items: center;
+
+  color: var(--color-text-sideBar);
+
+  font-family: 'Montserrat';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.sideBar__link:hover {
+  scale: 1.06;
+  color: rgb(206, 174, 174);
+  transition: all 0.3s ease;
+}
+
+.sideBar__icon {
+  margin-right: 24px;
 }

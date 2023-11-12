@@ -6,16 +6,15 @@ import Login from './pages/Login/Login.jsx';
 import Register from './pages/Register/Register.jsx';
 
 const App = () => {
-   return (
-      <Routes>
-         <Route path="" element={<MainLayout />}>
-            <Route path="/" element={<Home />} />
-         </Route>
-         <Route path="/login" element={<Login />} />
-         <Route path="/register" element={<Register />} />
-      </Routes>
-   )
+  return (
+    <Routes>
+      <Route path="" element={<MainLayout />}>
+        <Route path="/" element={<Home />} />
+      </Route>
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+    </Routes>
+  );
 };
 
 export default App;
-
