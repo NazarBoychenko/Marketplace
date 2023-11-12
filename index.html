@@ -11,10 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oregano&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
   </head>
 
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script>
+      new Glide('.glide').mount();
+    </script>
   </body>
 </html>
