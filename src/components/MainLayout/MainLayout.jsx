@@ -8,17 +8,17 @@ import Header from '../Header/Header';
 // import styles from './MainLayout.module.css';
 
 const MainLayout = () => {
-  return (
-    <div>
-      <Header />
+   return (
+      <div>
+         <Header />
 
-      <Suspense>
-        <Outlet />
-      </Suspense>
-       <Main />
-      <Footer />
-    </div>
-  );
+         <Suspense>
+            <Outlet />
+         </Suspense>
+         <Main />
+         <Footer />
+      </div>
+   );
 };
 
 export default MainLayout;
