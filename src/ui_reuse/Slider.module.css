@@ -1,5 +1,6 @@
 .slider {
    text-align: center;
+   position: relative;
 }
 
 .title {
@@ -8,3 +9,14 @@
    line-height: 39.01px;
    margin-bottom: 30px;
 }
+
+.arrow {
+   position: absolute;
+   top: 50%;
+}
+
+.arrow_right{
+  right: 0;
+}
+
+
