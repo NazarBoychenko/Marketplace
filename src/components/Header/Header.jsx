@@ -8,11 +8,14 @@ import Search from '../../icon/search.svg';
 import styles from './Header.module.css';
 
 const Header = () => {
+  const handleLogoClick = () => {
+    window.location.href = '/';
+  };
   return (
     <div className={styles.header}>
       <div className={styles.header__wraper}>
         <div className={styles.logo}>
-          <NavLink exact to="/" className={styles.logo__link}>
+          <NavLink onClick={handleLogoClick} className={styles.logo__link}>
             <img src={Logo} />
             <span className={styles.logo__text}>TechHaven</span>
           </NavLink>
