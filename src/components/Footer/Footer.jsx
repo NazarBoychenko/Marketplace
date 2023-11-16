@@ -1,5 +1,5 @@
 import styles from "./Footer.module.css";
-import "../../ui_reuse/width_limiter.css"
+import "../../ui_reuse/baseCss/width_limiter.css"
 
 import logo from "../../assets/svg/Th.svg";
 import van from "../../assets/svg/van.svg";

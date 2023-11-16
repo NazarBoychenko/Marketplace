@@ -4,8 +4,8 @@ import { useEffect } from 'react';
 import '@glidejs/glide/dist/css/glide.core.min.css';
 import Glide from '@glidejs/glide';
 
-import left_arrow from "../assets/svg/left_arrow.svg";
-import right_arrow from "../assets/svg/right_arrow.svg";
+import left_arrow from "../../assets/svg/left_arrow.svg";
+import right_arrow from "../../assets/svg/right_arrow.svg";
 
 const Slider = (props) => {
 
