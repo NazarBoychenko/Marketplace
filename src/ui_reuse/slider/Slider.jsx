@@ -20,7 +20,7 @@ const Slider = (props) => {
             <div className={styles.title}>{props.title}</div>
             <div className="glide__track" data-glide-el="track">
                <ul className="glide__slides">
-                  {props.slideSArray.map(e => <li className="glide__slide">{e}</li>)}
+                  {props.slideSArray.map(e => <li className="glide__slide" key={props.slideSArray.indexOf(e)}>{e}</li>)}
                </ul>
             </div>
             <div className="glide__arrows" data-glide-el="controls">
