@@ -1,3 +1,7 @@
+.container {
+   width: 1300px;
+}
+
 .slider {
    text-align: center;
    position: relative;
@@ -11,12 +15,18 @@
 }
 
 .arrow {
+   font-size: 50px;
    position: absolute;
    top: 50%;
 }
 
 .arrow_right{
-  right: 0;
+  right: -50px;
+  transform: rotate(180deg);
 }
+
+.arrow_left{
+   left: -50px;
+ }
 
 
